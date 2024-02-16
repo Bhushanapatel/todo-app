@@ -31,7 +31,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ammyy9908/${{ secrets.SERVICE_NAME }}:latest
+          tags: bhushanapatel/${{ secrets.SERVICE_NAME }}:latest
           build-args: |
             BOOT_CUR_ENV=${{ secrets.BOOT_CUR_ENV }}
 
