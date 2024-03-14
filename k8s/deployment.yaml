@@ -5,7 +5,7 @@ metadata:
   labels:
     app: todo-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: todo-app
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: todo-app
-          image: ammyy9908/todo-app:latest
+          image: Bhushanapatel/todo-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
