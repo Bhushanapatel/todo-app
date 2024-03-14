@@ -43,7 +43,7 @@ jobs:
 
       - name: Update Kubernetes config
         run: |
-          aws eks --region ap-south-1 update-kubeconfig --name kodnest
+          aws eks --region ap-south-1 update-kubeconfig --name kodnestv2
 
       - name: Deploy to EKS
         run: |
